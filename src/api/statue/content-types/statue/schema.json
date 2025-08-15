@@ -41,7 +41,8 @@
       "min": 0
     },
     "slug": {
-      "type": "string",
+      "type": "uid",
+      "targetField": "name",
       "required": true
     }
   }
